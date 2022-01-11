@@ -17,6 +17,8 @@
 		71B64F74278DBEDD009F21A1 /* AgendaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B64F4A278DBEDB009F21A1 /* AgendaScreen.swift */; };
 		71B64F75278DBEDD009F21A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B64F4B278DBEDD009F21A1 /* Assets.xcassets */; };
 		71B64F76278DBEDD009F21A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B64F4B278DBEDD009F21A1 /* Assets.xcassets */; };
+		71B64F86278DC581009F21A1 /* AgendaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B64F85278DC581009F21A1 /* AgendaViewModel.swift */; };
+		71B64F87278DC581009F21A1 /* AgendaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B64F85278DC581009F21A1 /* AgendaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		71B64F69278DBEDD009F21A1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B64F6D278DBEDD009F21A1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		71B64F6F278DBEDD009F21A1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		71B64F85278DC581009F21A1 /* AgendaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				71B64F49278DBEDB009F21A1 /* Booking_NinjaApp.swift */,
 				71B64F4A278DBEDB009F21A1 /* AgendaScreen.swift */,
 				71B64F4B278DBEDD009F21A1 /* Assets.xcassets */,
+				71B64F85278DC581009F21A1 /* AgendaViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 			files = (
 				71B64F73278DBEDD009F21A1 /* AgendaScreen.swift in Sources */,
 				71B64F71278DBEDD009F21A1 /* Booking_NinjaApp.swift in Sources */,
+				71B64F86278DC581009F21A1 /* AgendaViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				71B64F74278DBEDD009F21A1 /* AgendaScreen.swift in Sources */,
 				71B64F72278DBEDD009F21A1 /* Booking_NinjaApp.swift in Sources */,
+				71B64F87278DC581009F21A1 /* AgendaViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +479,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +509,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

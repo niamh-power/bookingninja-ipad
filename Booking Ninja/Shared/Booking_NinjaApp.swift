@@ -11,7 +11,7 @@ import SwiftUI
 struct Booking_NinjaApp: App {
     var body: some Scene {
         WindowGroup {
-            AgendaScreen()
+            AgendaScreen(viewModel: AgendaViewModel())
         }
     }
 }
